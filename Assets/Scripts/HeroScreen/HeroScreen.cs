@@ -11,12 +11,16 @@ public class HeroScreen : MonoBehaviour
     [Tooltip("Content container for the Scroll Rect")]
     [SerializeField] private Transform _content;
 
-    [Tooltip("")]
-    [SerializeField] private HeroProgressData[] _heroes;
+    [Tooltip("Parent object containing child objects with HeroProgressData components")]
+    [SerializeField] private GameObject _heroesContainer;
+
+    private HeroProgressData[] _heroes;
 
 
     private void Start()
     {
+        _heroes = _heroesContainer.GetComponentsInChildren<HeroProgressData>();
+
         Init(_heroes);
     }
 

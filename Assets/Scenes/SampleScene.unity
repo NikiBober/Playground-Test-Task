@@ -183,7 +183,7 @@ GameObject:
   m_Component:
   - component: {fileID: 184583998}
   m_Layer: 0
-  m_Name: HeroesList
+  m_Name: HeroesContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -524,6 +524,10 @@ PrefabInstance:
       propertyPath: _heroTilePrefab
       value: 
       objectReference: {fileID: 1705390971065551484, guid: f8c77865d3a7ad14aa069d4e867496f5, type: 3}
+    - target: {fileID: 1959611519368576192, guid: eaa537f2f814344a0b7393afb1fd291f, type: 3}
+      propertyPath: _heroesContainer
+      value: 
+      objectReference: {fileID: 184583997}
     - target: {fileID: 1959611519368576192, guid: eaa537f2f814344a0b7393afb1fd291f, type: 3}
       propertyPath: _heroes.Array.size
       value: 2
