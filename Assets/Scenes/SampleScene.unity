@@ -172,7 +172,7 @@ MonoBehaviour:
   Level: 3
   LevelXpCurrent: 9
   LevelXpMax: 50
-  Unlocked: 1
+  Unlocked: 0
 --- !u!1 &184583997
 GameObject:
   m_ObjectHideFlags: 0
