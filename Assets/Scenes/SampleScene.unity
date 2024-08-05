@@ -123,6 +123,89 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &103170091
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 103170092}
+  - component: {fileID: 103170093}
+  m_Layer: 0
+  m_Name: Hook
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &103170092
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103170091}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 184583998}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &103170093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103170091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbcb8440633b4d7d8e3fead0bbb4779, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Hook
+  Avatar: {fileID: 21300000, guid: 3135776982a6b41169bf9f26fe7de697, type: 3}
+  Level: 3
+  LevelXpCurrent: 9
+  LevelXpMax: 50
+  Unlocked: 1
+--- !u!1 &184583997
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 184583998}
+  m_Layer: 0
+  m_Name: HeroesList
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &184583998
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 184583997}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 814596129}
+  - {fileID: 103170092}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -317,6 +400,61 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &814596128
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 814596129}
+  - component: {fileID: 814596130}
+  m_Layer: 0
+  m_Name: Dunk
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &814596129
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 814596128}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 184583998}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &814596130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 814596128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efbcb8440633b4d7d8e3fead0bbb4779, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Dunk
+  Avatar: {fileID: 21300000, guid: 258f6d24a54864107b24c0ead3f43714, type: 3}
+  Level: 7
+  LevelXpCurrent: 9
+  LevelXpMax: 50
+  Unlocked: 1
+--- !u!224 &954503019 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 7634660221704015217, guid: eaa537f2f814344a0b7393afb1fd291f, type: 3}
+  m_PrefabInstance: {fileID: 1818806848}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &1573039755 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4613002146694871740, guid: eaa537f2f814344a0b7393afb1fd291f, type: 3}
@@ -378,6 +516,30 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1959611519368576192, guid: eaa537f2f814344a0b7393afb1fd291f, type: 3}
+      propertyPath: _content
+      value: 
+      objectReference: {fileID: 954503019}
+    - target: {fileID: 1959611519368576192, guid: eaa537f2f814344a0b7393afb1fd291f, type: 3}
+      propertyPath: _heroTilePrefab
+      value: 
+      objectReference: {fileID: 1705390971065551484, guid: f8c77865d3a7ad14aa069d4e867496f5, type: 3}
+    - target: {fileID: 1959611519368576192, guid: eaa537f2f814344a0b7393afb1fd291f, type: 3}
+      propertyPath: _heroes.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1959611519368576192, guid: eaa537f2f814344a0b7393afb1fd291f, type: 3}
+      propertyPath: _heroes.Array.data[0]
+      value: 
+      objectReference: {fileID: 814596130}
+    - target: {fileID: 1959611519368576192, guid: eaa537f2f814344a0b7393afb1fd291f, type: 3}
+      propertyPath: _heroes.Array.data[1]
+      value: 
+      objectReference: {fileID: 103170093}
+    - target: {fileID: 1959611519368576192, guid: eaa537f2f814344a0b7393afb1fd291f, type: 3}
+      propertyPath: _placeholderTilePrefab
+      value: 
+      objectReference: {fileID: 2647020719915994313, guid: fbf1528344c01284a90ddb043d344ec3, type: 3}
     - target: {fileID: 2645891313820809502, guid: eaa537f2f814344a0b7393afb1fd291f, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -497,6 +659,10 @@ PrefabInstance:
     - target: {fileID: 4613002146694871740, guid: eaa537f2f814344a0b7393afb1fd291f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5109725004624941637, guid: eaa537f2f814344a0b7393afb1fd291f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5129447884824172914, guid: eaa537f2f814344a0b7393afb1fd291f, type: 3}
       propertyPath: m_AnchorMax.y
@@ -783,3 +949,4 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 673212175}
   - {fileID: 2058592058}
+  - {fileID: 184583998}

@@ -24,7 +24,7 @@ public class HeroTile : MonoBehaviour
     {
         _nameText.text = hero.Name;
         _avatarImage.sprite = hero.Avatar;
-        _levelText.text = $"Level: {hero.Level}";
+        _levelText.text = $"{hero.Level}";
         _xpText.text = $"{hero.LevelXpCurrent}/{hero.LevelXpMax}";
         _xpSlider.maxValue = hero.LevelXpMax;
         _xpSlider.value = hero.LevelXpCurrent;

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class HeroProgressData
+public class HeroProgressData : MonoBehaviour
 {
     public string Name;
     public Sprite Avatar;

@@ -11,6 +11,15 @@ public class HeroScreen : MonoBehaviour
     [Tooltip("Content container for the Scroll Rect")]
     [SerializeField] private Transform _content;
 
+    [Tooltip("")]
+    [SerializeField] private HeroProgressData[] _heroes;
+
+
+    private void Start()
+    {
+        Init(_heroes);
+    }
+
     public void Init(HeroProgressData[] heroes)
     {
         // Clear all existing children from the content
